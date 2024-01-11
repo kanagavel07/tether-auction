@@ -1,0 +1,21 @@
+{
+  "name": "auction-solution",
+  "version": "1.0.0",
+  "description": "A simplified P2P auction solution based on Hyperswarm RPC and Hypercores.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/client.js $PORT",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hyperswarm/rpc": "^3.3.1",
+    "hyperbee": "^2.18.1",
+    "hypercore": "^10.31.12"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.2"
+  }
+}
